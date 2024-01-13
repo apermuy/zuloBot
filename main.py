@@ -12,7 +12,7 @@ config.read('config.ini')
 
 
 ip = serverInfo.getIpWan()
-espazo = serverInfo.getDiskUsage(config.get('Configuracion', 'DiskPath'))
+espazo = serverInfo.getDiskUsage(str(config.get('Configuracion', 'DiskPath')))
 saudo = saudos.boDia()
 
 mensaxeIpWan = "A IP externa do servidor é : " + ip
@@ -20,4 +20,5 @@ mensaxe = "A temperatura en Mugardos é " + exteriorDatos.obtener(config.get('Co
 
 print ("Mensaxe enviado..", telegramBot.enviarMensaje(config.get('Configuracion', 'BotToken'), str(config.get('Configuracion', 'ChatId')), saudo))
 print ("Mensaxe enviado..", telegramBot.enviarMensaje(config.get('Configuracion', 'BotToken'), str(config.get('Configuracion', 'ChatId')), mensaxe))
+print ("Mensaxe enviado..", telegramBot.enviarMensaje(config.get('Configuracion', 'BotToken'), str(config.get('Configuracion', 'ChatId')), mensaxeIpWan))
 print ("Mensaxe enviado..", telegramBot.enviarMensaje(config.get('Configuracion', 'BotToken'), str(config.get('Configuracion', 'ChatId')), espazo))

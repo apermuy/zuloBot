@@ -36,6 +36,8 @@ def boDia():
                    "Bo día. Vaia noite que pasei, case me reinicio do susto! Resumo de hoxe:",
                    "Bo día. Xa falaremos, pero temos que revisar o meu contrato.",
                    "Bo día. Falade con Javier e comentarlle que Wifi non te dúas F.",
+                   "Bo día. Tedes o cortello feito un cristo. Resumo do día: ",
+                   "Bo día. Hoxe estou canso, teño dor ata no puerto ethernet.",
                    "Bo día. Quitádeme este cuadro de aquí e poñede un dunha placa base, ostia!",
                    "Bo día. Estou depre, vou baixar algo de Juan Pardo para sair adiante. Resumo do día: "
                      ]
