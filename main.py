@@ -12,7 +12,7 @@ config.read('config.ini')
 
 
 ip = serverInfo.getIpWan()
-espazo = serverInfo.getDiskUsage("/")
+espazo = serverInfo.getDiskUsage(config.get('Configuracion', 'DiskPath'))
 saudo = saudos.boDia()
 
 mensaxeIpWan = "A IP externa do servidor é : " + ip
